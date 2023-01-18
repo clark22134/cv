@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Contact Details</title>
+</head>
+<body>
+    <h1>My Contact Details</h1>
+    <ul>
+        <li>Telephone:
+            <ul>
+                <li>(123)456-7890</li>
+            </ul>
+        </li>
+        <li>Email:
+            <ul>
+                <li>clark22134@gmail.com</li>
+            </ul>
+        </li>
+        <li>Address:
+            <ul>
+                <li>Clark Foster</li>
+                <li>123 Fake Dr.</li>
+                <li>Narnia, LA 77777</li>
+            </ul>
+        </li>
+    </ul>
+    <form action="mailto:clark22134@gmail.com" method="post" enctype="text/plain"> <!--FORMS: need label and input tags or form won't work-->
+        <label>Your Name:</label> <!-- other form input tags include: file(choose file), radio and range, date(calendar), and many others-->
+        <input type="text" name="yourName" value=""><br>
+        <label>Your Email:</label>
+        <input type="email" name="yourEmail" id=""><br>
+        <label>Your Message:</label><br>
+        <textarea name="" id="" cols="30" rows="10"></textarea><br>
+        <input type="submit" name="yourMessage">
+    </form>
+</body>
+</html>
